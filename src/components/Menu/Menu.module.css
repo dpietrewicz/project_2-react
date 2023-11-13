@@ -1,0 +1,12 @@
+.container {
+    background-color: antiquewhite;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuItems {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}

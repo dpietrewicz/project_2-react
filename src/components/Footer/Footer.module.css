@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    color: gray;
+    font-size: 18px;
+}
