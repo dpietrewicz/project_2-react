@@ -1,21 +1,48 @@
+.container {
+    width: 1140px;
+    height: auto;
+    background-color: #405d78;
+    padding: 20px 70px 50px 70px;
+}
+
+.offersTitle {
+    font-size: 28px;
+    font-weight: 450;
+    color: #fff;
+    margin: 20px 0 60px 0px;
+}
+
 .boxesContainer {
-    display: flex;
-    gap: 30px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 30px;
+    grid-auto-rows: 200px;
 }
 
 .box {
-    width: 200px;
-    height: 200px;
-    background-color: bisque;
+    font-size: 16px;
+    font-weight: 400;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: #f1f1f1;
     position: relative;
+}
+
+.boxNewTag {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
 }
 
 .dot {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-    background-color: blueviolet;
+    background-color: #c62121;
     top: -10px;
     left: -10px;
 }

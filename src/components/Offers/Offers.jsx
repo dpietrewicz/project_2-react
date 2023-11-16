@@ -3,13 +3,19 @@ import styles from "./Offers.module.css";
 
 const Offers = () => {
     return (
-        <section>
-            <h2>Oferta firmy</h2>
+        <section className={styles.container}>
+            <h2 className={styles.offersTitle}>
+                Czym zajmuje się nasza firma?
+            </h2>
             <div className={styles.boxesContainer}>
                 {offers.map((offer) => (
                     <div className={styles.box}>
-                        <p>{offer.name}</p>
-                        {offer.isNew ? <p>Nowość!</p> : null}
+                        <p>
+                            {offer.name}
+                            {offer.isNew ? (
+                                <p className={styles.boxNewTag}>(nowość)</p>
+                            ) : null}
+                        </p>
                         {offer.isNew ? (
                             <div className={styles.dot}></div>
                         ) : null}

@@ -1,6 +1,8 @@
 export const offers = [
-    { name: "Strony www", isNew: true },
-    { name: "oferta 2", isNew: false },
-    { name: "oferta 3", isNew: false },
-    { name: "oferta 4", isNew: true },
+    { name: "Usługa 1", isNew: true },
+    { name: "Usługa 2", isNew: false },
+    { name: "Usługa 3", isNew: false },
+    { name: "Usługa 4", isNew: false },
+    { name: "Usługa 5", isNew: true },
+    { name: "Usługa 6", isNew: true },
 ];

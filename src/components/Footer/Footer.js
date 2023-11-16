@@ -9,11 +9,11 @@ import styles from "./Footer.module.css";
 const Footer = () => {
     return (
         <footer className={styles.container}>
-            <div>Moja firma</div>
+            <div>Nazwa firmy - wszelkie prawa zastrzeżone, 2023</div>
             <div className={styles.icons}>
-                <FontAwesomeIcon icon={faTwitter} color="black" />
-                <FontAwesomeIcon icon={faFacebook} color="black" />
-                <FontAwesomeIcon icon={faInstagram} color="black" />
+                <FontAwesomeIcon icon={faTwitter} />
+                <FontAwesomeIcon icon={faFacebook} />
+                <FontAwesomeIcon icon={faInstagram} />
             </div>
         </footer>
     );
