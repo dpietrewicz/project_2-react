@@ -9,13 +9,11 @@ const Offers = () => {
             </h2>
             <div className={styles.boxesContainer}>
                 {offers.map((offer) => (
-                    <div className={styles.box}>
-                        <p>
-                            {offer.name}
-                            {offer.isNew ? (
-                                <p className={styles.boxNewTag}>(nowość)</p>
-                            ) : null}
-                        </p>
+                    <div className={styles.box} key={Math.random()}>
+                        <p>{offer.name}</p>
+                        {offer.isNew ? (
+                            <p className={styles.boxNewTag}>(nowość)</p>
+                        ) : null}
                         {offer.isNew ? (
                             <div className={styles.dot}></div>
                         ) : null}
