@@ -1,15 +1,16 @@
+import "./App.css";
 import Header from "./components/Header/Header";
 import Menu from "./components/Menu/Menu";
 import Offers from "./components/Offers/Offers";
 import Footer from "./components/Footer/Footer";
-import Main from "./components/Main/Main";
+import Specialists from "./components/Specialists/Specialists";
 
 function App() {
     return (
         <>
             <Menu />
             <Header />
-            <Main />
+            <Specialists />
             <Offers />
             <Footer />
         </>

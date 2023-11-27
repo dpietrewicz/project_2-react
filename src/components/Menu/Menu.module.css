@@ -1,25 +1,37 @@
-.container {
-    background-color: #4e4e4e;
-    color: #f1f1f1;
-    padding: 0 80px 0 80px;
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menuTitle {
-    font-weight: 500;
-}
-
-.menuElements {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-}
-
-.menuLink {
+a {
+    color: #ffffff;
     text-decoration: none;
-    font-weight: 300;
-    color: #f1f1f1;
+}
+
+.container {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.navigation {
+    height: 50px;
+    background-color: #4e4e4e;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.navigation .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.companyName {
+    font-weight: 700;
+}
+
+.linksList {
+    display: flex;
+}
+
+.offer {
+    margin: 0 45px;
 }

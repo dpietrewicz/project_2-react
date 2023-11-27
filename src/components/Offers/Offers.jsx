@@ -1,24 +1,14 @@
-import { offers } from "../../Data/offers";
 import styles from "./Offers.module.css";
+import Offer from "./Offer";
 
 const Offers = () => {
     return (
-        <section className={styles.container}>
-            <h2 className={styles.offersTitle}>
+        <section className={styles.offers} id="offers">
+            <h2 className={styles.offersSubtitle}>
                 Czym zajmuje się nasza firma?
             </h2>
-            <div className={styles.boxesContainer}>
-                {offers.map((offer) => (
-                    <div className={styles.box} key={Math.random()}>
-                        <p>{offer.name}</p>
-                        {offer.isNew ? (
-                            <p className={styles.boxNewTag}>(nowość)</p>
-                        ) : null}
-                        {offer.isNew ? (
-                            <div className={styles.dot}></div>
-                        ) : null}
-                    </div>
-                ))}
+            <div className={styles.offersWrapper}>
+                <Offer />
             </div>
         </section>
     );

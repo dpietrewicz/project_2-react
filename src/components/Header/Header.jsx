@@ -3,22 +3,22 @@ import styles from "./Header.module.css";
 const Header = () => {
     return (
         <header
-            className={styles.container}
-            style={{ backgroundImage: "url(/assets/background.jpeg)" }}
+            className={styles.header}
+            style={{ backgroundImage: "url(/assets/Mountains.jpg)" }}
         >
-            <div className={styles.headingTextBox}>
-                <h1 className={styles.headingPrimary}>
-                    <span className={styles.headingPrimaryMain}>
+            <div className={styles.shadow}>
+                <div className={styles.container}>
+                    <h1 className={styles.headerTitle}>
                         Nasza firma oferuje najwyższej jakości produkty.
-                    </span>
-                    <span className={styles.headingPrimarySub}>
+                    </h1>
+                    <h2 className={styles.headerSubtitle}>
                         Nie wierz nam na słowo - sprawdź
-                    </span>
-                </h1>
+                    </h2>
 
-                <a href="#" className={styles.btn}>
-                    oferta
-                </a>
+                    <a href="#" className={styles.offerBtn}>
+                        oferta
+                    </a>
+                </div>
             </div>
         </header>
     );

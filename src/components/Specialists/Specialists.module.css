@@ -1,0 +1,59 @@
+.specialists {
+    background: #f1f1f1;
+    padding: 50px 50px;
+    /* Czy padding tutaj to dobra praktyka? */
+}
+
+.specialist {
+    display: flex;
+    flex-direction: column;
+}
+
+.specialistName {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.specialistDescription {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.specialistsSubtitle {
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #152d41;
+    text-align: left;
+}
+
+.specialistInfoWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.specialistImage {
+    width: 197px;
+    height: 197px;
+    background-size: cover;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.specialistFirst {
+    display: flex;
+    text-align: left;
+    gap: 50px;
+}
+
+.specialistSecond {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    gap: 50px;
+    /* Czy takie pozycjonowanie to dobra praktyka? */
+}
