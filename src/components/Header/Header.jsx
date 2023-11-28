@@ -15,7 +15,7 @@ const Header = () => {
                         Nie wierz nam na słowo - sprawdź
                     </h2>
 
-                    <a href="#" className={styles.offerBtn}>
+                    <a href="#offers" className={styles.offerBtn}>
                         oferta
                     </a>
                 </div>

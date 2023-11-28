@@ -1,7 +1,12 @@
 .offers {
     height: auto;
     background-color: #405d78;
-    padding: 50px 50px;
+    padding: 50px 0;
+}
+
+.offersContainer {
+    width: 960px;
+    margin: 0 auto;
 }
 
 .offersSubtitle {

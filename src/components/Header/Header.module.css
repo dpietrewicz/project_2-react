@@ -1,5 +1,5 @@
 .header {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 50px);
     background: no-repeat center;
     background-size: cover;
 }
@@ -9,7 +9,8 @@
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    padding: 0 50px;
+    margin: 0 auto;
+    width: 960px;
 }
 
 .shadow {
@@ -22,6 +23,7 @@
     font-size: 36px;
     line-height: 42px;
     color: #ffffff;
+    width: 60%;
 }
 
 .headerSubtitle {
