@@ -1,4 +1,6 @@
-# Project 2 - Company Website
+# Project 2 - Future Collars
+
+React - Company Website
 
 Netlify: https://project-2-react-company-website.netlify.app/
 
